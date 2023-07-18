@@ -1,6 +1,8 @@
 # PanelGPT: Prompt Language Models with a Penal Discussion 
-
+> **Three cobblers with their wits combined equal Zhuge Liang the mastermind. --- an old saying in China.**
 # 💡: 💁🏼🎤     (👾💬) (🤖💭) (🤯🗯)
+
+
 
 We introduce new zero-shot prompting magic words that improve language models' reasoning ability: **Panel Discussion**!
 
@@ -22,6 +24,8 @@ We evaluate the effectiveness of the proposed prompt method on the GSM8K dataset
 
 The cost for evaluating each prompt on the 1k GSM8k test dataset is less than 2 USD. 
 
+Our panel discussion prompt achieves the **Best Performance**, and ablation studies show the importance of each element's benefit. 
+<ins>Second Best</ins>, and _Third Best_ are denoted by underline and _italic_ formats, respectively.
 
 | Method\Dataset  | GSM8K (test 1k) | Prompt Content | Reference | 
 |---------|---------|---------|-----------|
