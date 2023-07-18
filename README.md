@@ -4,7 +4,9 @@ We introduce new zero-shot prompting magic words that improve language models' r
 
 ## Motivation
 
-In conferences and workshops, there are always **penal discussions** among experts, and people exchange their opinions on a given topic, improving the understanding of
+In conferences and workshops, there are always **penal discussions** among experts, and people exchange their opinions on a given topic, improving the understanding of new concepts, changing perspectives of thinking, and reaching a more comprehensive understanding of prevailing debates or discussions.
+
+This idea is related to the work of self-consistency [Wang, Xuezhi, et al.](https://arxiv.org/pdf/2203.11171.pdf) (as multiple experts may disagree with each other during the panel discussion.)
 
 
 ## Empirical Results on Benchmarks
