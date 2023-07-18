@@ -1,3 +1,12 @@
+'''
+File: prompt evaluation.py
+Author: Hao Sun
+Email: hs789@cam.ac.uk
+Date: July 18, 2023
+Description: This code performs parallelized prompt evaluation on the GSM8K dataset.
+Requirement: Clone the GSM8K dataset first: https://github.com/openai/grade-school-math
+'''
+
 import torch as th
 from dataset import get_examples, GSMDataset, extract_answer
 import time
@@ -24,9 +33,9 @@ def create_chat_completion(prompt, tokens=512, temperature=0, error_count=0):
         return response
     except:
         # sleep for 5 seconds
-        time.sleep(5)
+        time.sleep(10)
         error_count += 1
-        if error_count > 3:
+        if error_count > 600:
             raise Exception("Too many errors")
         return create_chat_completion(prompt, tokens, temperature, error_count)
 
@@ -61,7 +70,7 @@ def run_test(test_examples, prompt, num_threads=10):
         'average_tokens': sum(result[3] for result in results) / len(results)
     }
 
-def eval_prompt(prompt = " ", n_eval = 200, file_alias = 'alias', num_threads=20):
+def eval_prompt(prompt = " ", n_eval = 1000, file_alias = 'alias', num_threads=500):
     init_openai()
     test_examples = get_examples("test")[:n_eval]
 
