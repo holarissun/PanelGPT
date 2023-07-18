@@ -1,4 +1,5 @@
-# PanelGPT
+# PanelGPT: Prompt Language Models with a Penal Discussion
+
 We introduce new zero-shot prompting magic words that improve language models' reasoning ability: **Panel Discussion**!
 
 ## Motivation
