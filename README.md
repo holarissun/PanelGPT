@@ -64,9 +64,15 @@ If you use our code and prompt, please consider citing our GitHub repository:
 ```bibtex
 @misc{sun2023panelgpt,
   author = {Hao Sun},
-  title = {PanelGPT: Prompt Language Models with a Penal Discussion},
+  title = {PanelGPT: Prompt Language Models with a Panel Discussion},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub Repository},
   howpublished = {\url{https://github.com/holarissun/PanelGPT}},
+}
+@article{sun2023offline,
+  title={Offline Prompt Evaluation and Optimization with Inverse Reinforcement Learning},
+  author={Sun, Hao},
+  journal={arXiv preprint arXiv:2309.06553},
+  year={2023}
 }
