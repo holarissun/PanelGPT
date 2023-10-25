@@ -59,9 +59,15 @@ Wang et al. (2022) improve the few-shot CoT method by sampling multiple diverse 
 
 ## Citation
 
-If you use our code and prompt, please consider citing our GitHub repository:
+If you use our code and prompt, please consider citing our paper (preferred) or GitHub repository:
 
 ```bibtex
+@article{sun2023offline,
+  title={Offline Prompt Evaluation and Optimization with Inverse Reinforcement Learning},
+  author={Sun, Hao},
+  journal={arXiv preprint arXiv:2309.06553},
+  year={2023}
+}
 @misc{sun2023panelgpt,
   author = {Hao Sun},
   title = {PanelGPT: Prompt Language Models with a Panel Discussion},
@@ -69,10 +75,4 @@ If you use our code and prompt, please consider citing our GitHub repository:
   publisher = {GitHub},
   journal = {GitHub Repository},
   howpublished = {\url{https://github.com/holarissun/PanelGPT}},
-}
-@article{sun2023offline,
-  title={Offline Prompt Evaluation and Optimization with Inverse Reinforcement Learning},
-  author={Sun, Hao},
-  journal={arXiv preprint arXiv:2309.06553},
-  year={2023}
 }
