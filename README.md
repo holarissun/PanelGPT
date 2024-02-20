@@ -62,11 +62,10 @@ Wang et al. (2022) improve the few-shot CoT method by sampling multiple diverse 
 If you use our code and prompt, please consider citing our paper:
 
 ```bibtex
-@article{sun2023query,
+@inproceedings{sun2023query,
   title={Query-Dependent Prompt Evaluation and Optimization with Offline Inverse RL},
   author={Sun, Hao and H{\"u}y{\"u}k, Alihan and van der Schaar, Mihaela},
-  journal={arXiv e-prints},
-  pages={arXiv--2309},
+  booktitle={The Twelfth International Conference on Learning Representations},
   year={2023}
 }
 
